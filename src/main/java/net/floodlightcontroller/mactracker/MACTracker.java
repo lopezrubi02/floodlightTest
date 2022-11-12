@@ -53,7 +53,6 @@ public class MACTracker implements IOFMessageListener, IFloodlightModule, MACTra
 		// TODO Auto-generated method stub
 	    Collection<Class<? extends IFloodlightService>> l = new ArrayList<Class<? extends IFloodlightService>>();
 	    l.add(MACTrackerService.class);
-	    l.add(IRestApiService.class);
 	    return l;
 	}
 
